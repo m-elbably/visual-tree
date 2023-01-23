@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flow Render Engine</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <style>
+        html {
+            height: 100%;
+            background: hsl(0, 27%, 80%);
+        }
+
+        body {
+            min-height: 100vh;
+            margin: 0 auto;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+            background-color: #ffffff;
+        }
+
+        .ui.container {
+            position: absolute;
+            left: 0;
+            right: 0;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="tree-container"></div>
+    <div id="toolbar-container" class="ui container segment" style="background: rgba(255,255,255,0.7)">
+            <div class="ui small basic icon buttons">
+                <div id="zoom-in" class="ui icon button" data-tooltip="Zoom In"><i class="zoom-in icon"></i></div>
+                <div id="zoom-out" class="ui icon button" data-tooltip="Zoom Out"><i class="zoom-out icon"></i></div>
+                <div id="zoom-fit" class="ui icon button" data-tooltip="Zoom Fit"><i class="compress icon"></i></div>
+                <div id="zoom-reset" class="ui icon button" data-tooltip="Zoom Reset (Reset Zoom and Center)"><i class="expand icon"></i></div>
+            </div>
+            <div class="ui small basic icon buttons">
+                <div id="add-node" class="ui icon button" data-tooltip="Add Node"><i class="plus icon"></i></div>
+                <div id="insert-node" class="ui icon button" data-tooltip="Insert Node"><i class="plus square outline icon"></i></div>
+                <div id="remove-node" class="ui icon button" data-tooltip="Remove Node"><i class="times icon"></i></div>
+                <div id="remove-node-children" class="ui icon button" data-tooltip="Remove Node (with Children)"><i class="trash icon"></i></div>
+            </div>
+            <div class="ui small basic icon buttons">
+                <div id="select-node" class="ui icon button" data-tooltip="Select Node"><i class="dot circle icon"></i></div>
+                <div id="select-pan-node" class="ui icon button" data-tooltip="Select Node (Focus)"><i class="circle icon"></i></div>
+            </div>
+            <div class="ui small basic icon buttons">
+                <div id="select-path" class="ui icon button" data-tooltip="Highlight Path to Selected Node"><i class="sitemap icon"></i></div>
+                <div id="reset-path-selection" class="ui icon button" data-tooltip="Reset Path Selection"><i class="eraser icon"></i></div>
+            </div>
+            <div class="ui small basic icon buttons">
+                <div id="reset-selection" class="ui icon button" data-tooltip="Reset Node Selection"><i class="object ungroup outline icon"></i></div>
+                <div id="reset-highlighted" class="ui icon button" data-tooltip="Reset Highlighted Nodes"><i class="object ungroup icon"></i></div>
+            </div>
+            <div class="ui small basic icon buttons">
+                <div id="add-title" class="ui icon button" data-tooltip="Add Random Title to Selected Node"><i class="address card outline icon"></i></div>
+                <div id="fullscreen" class="ui icon button" data-tooltip="Toggle Fullscreen"><i class="expand icon"></i></div>
+            </div>
+            <div class="ui small basic icon buttons">
+                <div id="save-to-image" class="ui icon button" data-tooltip="Export to Image"><i class="save outline icon"></i></div>
+                <div id="save-to-pdf" class="ui icon button" data-tooltip="Export to PDF"><i class="file pdf outline icon"></i></div>
+            </div>
+            <div class="ui search" style="display: inline-block; margin-left: 8px;">
+                <div class="ui icon input">
+                    <input id="search-input" class="prompt" type="text" placeholder="Search...">
+                    <i class="search icon"></i>
+                </div>
+            </div>
+    </div>
+    <script src="main.bundle.js"></script>
+    <script src="test.bundle.js"></script>
+</body>
+
+</html>

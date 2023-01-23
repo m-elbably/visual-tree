@@ -5,7 +5,6 @@ A basic interactive tree visualization library that can be used to render differ
 [![Node Version](https://img.shields.io/node/v/visual-tree.svg)](https://nodejs.org)
 [![npm version](https://img.shields.io/npm/v/visual-tree/latest.svg)](https://www.npmjs.com/package/visual-tree)
 [![Build Status](https://github.com/m-elbably/visual-tree/workflows/visual-tree/badge.svg)](https://github.com/m-elbably/visual-tree/workflows/visual-tree/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/m-elbably/visual-tree/badge.svg?branch=main&t=pKbxsM)](https://coveralls.io/github/m-elbably/visual-tree?branch=main)
 [![License](https://img.shields.io/github/license/m-elbably/visual-tree.svg)](https://raw.githubusercontent.com/m-elbably/visual-tree/master/LICENSE)
 
 ## Installation
@@ -205,6 +204,7 @@ Additional details:
 Keyboard navigation is implemented through considering the tree as a virtual grid (rows, columns) then move along the y-axis using `up` and `down` arrows, or along the x-axis using `right` and `left` arrows.    
 
 ## TODO
+- [ ] Testing
 - [ ] Vertical layout
 - [ ] Easy configuration for text and highlight colors
 - [ ] Export diagram to pdf

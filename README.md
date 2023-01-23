@@ -7,6 +7,8 @@ A basic interactive tree visualization library that can be used to render differ
 [![Build Status](https://github.com/m-elbably/visual-tree/workflows/visual-tree/badge.svg)](https://github.com/m-elbably/visual-tree/workflows/visual-tree/badge.svg)
 [![License](https://img.shields.io/github/license/m-elbably/visual-tree.svg)](https://raw.githubusercontent.com/m-elbably/visual-tree/master/LICENSE)
 
+https://user-images.githubusercontent.com/2601749/214102138-84f599e7-630a-4abf-adc9-94fd77593bb2.mp4
+
 ## Installation
     npm install visual-tree --save
 

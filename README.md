@@ -10,7 +10,7 @@ A basic interactive tree visualization library that can be used to render differ
 https://user-images.githubusercontent.com/2601749/214102138-84f599e7-630a-4abf-adc9-94fd77593bb2.mp4
 
 <p align="center">
-  <img src="./res/images/virtual-tree-screen.jpg">
+  <img src="https://raw.githubusercontent.com/m-elbably/visual-tree/main/res/images/virtual-tree-screen.jpg">
 </p>
 
 ## Installation

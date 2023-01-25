@@ -1,6 +1,6 @@
 {
     "name": "visual-tree",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Visual Tree",
     "main": "dist/index.js",
     "scripts": {
@@ -32,7 +32,7 @@
         "webpack-cli": "^5.0.1",
         "webpack-dev-server": "^4.11.1"
     },
-    "homepage": "https://github.com/m-elbably",
+    "homepage": "https://github.com/m-elbably/visual-tree",
     "author": "Mohamed El-Bably",
     "license": "MIT"
 }
